@@ -1,0 +1,48 @@
+path: datasets
+
+train:
+  - China_Drone/fold_0/images
+  - China_Drone/fold_2/images
+  - China_Drone/fold_3/images
+
+  - Czech/fold_0/images
+  - Czech/fold_2/images
+  - Czech/fold_3/images
+
+  - China_MotorBike/fold_0/images
+  - China_MotorBike/fold_2/images
+  - China_MotorBike/fold_3/images
+
+  - Japan/fold_0/images
+  - Japan/fold_2/images
+  - Japan/fold_3/images
+
+  - Norway/fold_0/images
+  - Norway/fold_2/images
+  - Norway/fold_3/images
+
+  - United_States/fold_0/images
+  - United_States/fold_2/images
+  - United_States/fold_3/images
+
+val:
+  - China_Drone/fold_1/images
+  - Czech/fold_1/images
+  - China_MotorBike/fold_1/images
+  - Japan/fold_1/images
+  - Norway/fold_1/images
+  - United_States/fold_1/images
+
+test:
+  - India/fold_0/images
+  - India/fold_1/images
+  - India/fold_2/images
+  - India/fold_3/images
+
+nc: 4
+
+names:
+  0: D00 - Longitudinal Crack
+  1: D10 - Transverse Crack
+  2: D20 - Alligator Crack
+  3: D40 - Pothole
